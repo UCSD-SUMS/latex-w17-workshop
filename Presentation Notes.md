@@ -2,7 +2,7 @@
 
 These notes detail the process we will be going through in order to write and compile incrementally more complex LaTeX documents during the workshop.
 
-Pause between each numbered section to ensure that everyone is caught up. Try to take a break at the 1 hour mark.
+Pause between each numbered section to ensure that everyone is caught up. Try to take a break at the 1 hour mark. 
 
 ## Preliminaries
 - Create an account on Sharelatex.com and log in to Projects page
@@ -247,3 +247,4 @@ A = \left( \begin{array}{cc} a & b \\ b & c \end{array} \right)
  * For installing/using Latex on your local machine:
  	* [MikTeX](https://miktex.org/) A Latex "distribution", includes compiler and some packages
  	* [Texmaker](http://www.xm1math.net/texmaker/): A Latex IDE
+ * The [Markdown Editor](https://jbt.github.io/markdown-editor) used for this document
