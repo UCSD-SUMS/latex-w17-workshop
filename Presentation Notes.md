@@ -41,7 +41,7 @@ Pause between each numbered section to ensure that everyone is caught up. Try to
   - More intricate examples: [Overleaf Gallery](https://www.overleaf.com/gallery)
 
 ------
-# 1: Getting a Document to Compile
+# 1: Compile a Basic Document
 
 
 ## Overview
@@ -104,6 +104,7 @@ Equation math is $$y = mx + b$$
 
 ------
 # 2: Work Up to the Sharelatex Default
+
 ## Overview
 To current document, add:
 ```latex
@@ -118,6 +119,7 @@ To current document, add:
 Document content goes here!
 \end{document}
 ```
+
 ## Talking Points
 
 - What is the preamble? What happens there?
@@ -146,7 +148,7 @@ Document content goes here!
        - We'll add a few packages of our own later on
 
 ------
-# 3: Back to Improving Our Document
+# 3: Document Structure
 
 ## Overview
 To the existing code, add:
@@ -198,11 +200,12 @@ To the existing code, add:
       - Show building derivative out of `\frac`, and `\partial`
       - Show basic array/matrix and how alignment symbol/newline works
       - Show QED
-        - Demo [Detexify](http://detexify.kirelabs.org/classify.html)
-          - Show searching for other greek letters and operators
-        - Demo [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
-          - This is also particular good for when you know what a symbol *looks* like, but not what it's called. 
-        - And remember, Google is your friend!!
+      	- Note: this is not default! It's provided by an AMS package, which we'll see momentarily
+    - Demo [Detexify](http://detexify.kirelabs.org/classify.html)
+      - Show searching for other greek letters and operators
+    - Demo [Equation Editor](https://www.codecogs.com/latex/eqneditor.php)
+      - This is also particular good for when you know what a symbol *looks* like, but not what it's called. 
+      - And remember, Google is your friend!!
 
 ## Math Examples
 ```latex
@@ -213,7 +216,7 @@ A = \left( \begin{array}{cc} a & b \\ b & c \end{array} \right)
 ```
 
 ------
-# 4: Stepping Up the Complexity: References
+# 4: Packages and References
 
 ## Overview
 
@@ -329,7 +332,6 @@ Do this in a new project! Copy-paste most things to emphasize that some of these
 \end{align}
 ```
 
-
 ## Talking Points
 
 - We've built a pretty fully-featured document so far. But since these last few bits are slightly more complex, we'll do it in a new project.
@@ -432,3 +434,7 @@ A large equation $$f(x) = a^x$$
 	- **Insert sections and inputs into main.tex**
 	- **Insert content into lecture1 and lexture2**
 	- **Compile main.tex**
+- Subfiles Package
+	- **View the subfiles project** 
+- Standalone Package
+	- **View the standalone project**
