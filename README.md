@@ -26,12 +26,14 @@ All of the tools we discussed are also linked at the bottom.
   - [Reference Project (With Explanatory Comments)](https://www.sharelatex.com/project/58a66cdddc437fe62c880fb3)
 
 # Useful Tools
+* Document Samples:
+  * [Overleaf Gallery](https://www.overleaf.com/gallery)
 * General Purpose
-    * [TexZilla](https://fred-wang.github.io/TeXZilla/): A REPL for Math expressions
-    * [Detexify](http://detexify.kirelabs.org/classify.html): Find commands for unknown symbols.
-    * [Equation Editor](https://www.codecogs.com/latex/eqneditor.php) GUI for generating code for more complicated expressions
-    * [Table Generator](http://www.tablesgenerator.com/): GUI for designing tables that generates copy-pastable source code
-    * [CTAN](https://www.ctan.org/pkg): Hosts Latex packages, descriptions, and downloads.
+  * [TexZilla](https://fred-wang.github.io/TeXZilla/): A REPL for Math expressions
+  * [Detexify](http://detexify.kirelabs.org/classify.html): Find commands for unknown symbols.
+  * [Equation Editor](https://www.codecogs.com/latex/eqneditor.php) GUI for generating code for more complicated expressions
+  * [Table Generator](http://www.tablesgenerator.com/): GUI for designing tables that generates copy-pastable source code
+  * [CTAN](https://www.ctan.org/pkg): Hosts Latex packages, descriptions, and downloads.
 * For installing/using Latex on your local machine:
-    * [MikTeX](https://miktex.org/): A Latex "distribution", includes compiler and some packages
+  * [MikTeX](https://miktex.org/): A Latex "distribution", includes compiler and some packages
     * [Texmaker](http://www.xm1math.net/texmaker/): A Latex IDE you can install locally
